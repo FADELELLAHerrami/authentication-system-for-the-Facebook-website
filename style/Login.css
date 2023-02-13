@@ -1,0 +1,133 @@
+body{
+    background-color: #F0F2F5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.content2{
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+    margin-left: 75px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.content2 .show{
+        position: absolute;
+        right: 5%;
+        top: 21.5%;
+        bottom: 0;
+        background-color: transparent;
+        padding: 0 0;
+        font-size: 16px;
+        cursor: pointer;
+}
+.content2a{
+    margin-top: 100px;
+    height: 450;
+    margin-left: 75px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.content2 form {
+    background-color: white;
+}
+.content2 form input{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    caret-color: #3A8AF2;
+    padding-left: 10px;
+}
+.content2 form input:focus{
+    outline: 1px solid #3A8AF2;
+}
+.content2 form input::placeholder{
+    padding-left: 10px;
+    color: gray;
+}
+
+.content2a form input{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    caret-color: #3A8AF2;
+    padding-left: 10px;
+}
+.content2a form input:focus{
+    outline: 1px solid #3A8AF2;
+}
+.content2a form input::placeholder{
+    padding-left: 10px;
+    color: gray;
+}
+.content1{
+    font-family: 'Tajawal', sans-serif;
+}
+.content1 h1{
+    font-family: Arial ;
+    font-size: 50px;
+    color: #3A8AF2;
+}
+p{
+    background-color: white;
+}
+form .btn1{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #3A8AF2;
+    border-radius: 12px;
+    border: none;
+}
+hr{
+    margin-bottom: 20px;
+}
+.btn2{
+    width: 50%;
+    height: 100px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #42B72A;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: #3B8BF8;
+}
+.btn2:hover{
+    background-color: #42B72A;
+}
+
+.a1{
+    color: #3A8AF2;
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.a2{
+    color: black;
+    text-decoration: none;
+}
+.a2:hover{
+    text-decoration: underline;
+}
+.error{
+    font-size: 8px;
+    color: red;
+}
+.show{
+    cursor: pointer;
+}
